@@ -36,6 +36,7 @@ $cmd_pip $upgrade \ -> $cmd_pip $upgrade --ignore-installed \
 
 
 Blazor-nova requirements error
+
 /opt/stack/blazor-nova/requirements
 
 ```
