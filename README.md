@@ -25,7 +25,7 @@ sudo ovs-vsctl add-port br-ex eno2
 ```
 
 
-### error handling
+## error handling
 
 Simple jason error
 
@@ -52,4 +52,21 @@ oslo.config>=8.5.0
 oslo.i18n>=5.0.0
 # oslo.log>=4.6.1 # Apache-2.0
 oslo.log>=4.4.0
+```
+
+## reboot setting
+### socket error
+mkdir /var/run/octavia
+chown stack:root /var/run/octavia/
+
+/etc/octavia/octavia.conf
+
+line329
+```
+amp_boot_network_list = [openstack public-network id]
+```
+
+line765
+```
+get_socket_path = /var/run/octavia/get.sock
 ```
