@@ -26,6 +26,7 @@ sudo ovs-vsctl add-port br-ex eno2
 
 
 Simple jason error
+
 /opt/stack/devstack/inc/python  line 198 (function pip_install)
 $cmd_pip $upgrade \ -> $cmd_pip $upgrade --ignore-installed \
 
