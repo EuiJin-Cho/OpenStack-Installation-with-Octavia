@@ -57,6 +57,7 @@ oslo.log>=4.4.0
 ## reboot setting
 ### socket error
 mkdir /var/run/octavia
+
 chown stack:root /var/run/octavia/
 
 /etc/octavia/octavia.conf
