@@ -25,6 +25,8 @@ sudo ovs-vsctl add-port br-ex eno2
 ```
 
 
+error handling
+
 Simple jason error
 
 /opt/stack/devstack/inc/python  line 198 (function pip_install)
